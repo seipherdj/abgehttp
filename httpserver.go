@@ -1,4 +1,3 @@
-
 package main
 
 import (
@@ -13,7 +12,6 @@ func Log(handler http.Handler) http.Handler {
 		handler.ServeHTTP(w, r)
 	})
 }
-
 
 func main() {
 	// Simple static webserver:
